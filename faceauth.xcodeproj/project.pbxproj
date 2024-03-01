@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		353CED0F2B5BF6DE007634BD /* faceauthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CED0E2B5BF6DE007634BD /* faceauthApp.swift */; };
+		353CED112B5BF6DE007634BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CED102B5BF6DE007634BD /* ContentView.swift */; };
+		353CED132B5BF6DF007634BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353CED122B5BF6DF007634BD /* Assets.xcassets */; };
+		353CED162B5BF6DF007634BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353CED152B5BF6DF007634BD /* Preview Assets.xcassets */; };
+		353CED202B5BF6DF007634BD /* faceauthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CED1F2B5BF6DF007634BD /* faceauthTests.swift */; };
+		353CED2A2B5BF6DF007634BD /* faceauthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CED292B5BF6DF007634BD /* faceauthUITests.swift */; };
+		353CED2C2B5BF6DF007634BD /* faceauthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CED2B2B5BF6DF007634BD /* faceauthUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		353CED1C2B5BF6DF007634BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353CED032B5BF6DE007634BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353CED0A2B5BF6DE007634BD;
+			remoteInfo = faceauth;
+		};
+		353CED262B5BF6DF007634BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353CED032B5BF6DE007634BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353CED0A2B5BF6DE007634BD;
+			remoteInfo = faceauth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		353CED0B2B5BF6DE007634BD /* faceauth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faceauth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353CED0E2B5BF6DE007634BD /* faceauthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceauthApp.swift; sourceTree = "<group>"; };
+		353CED102B5BF6DE007634BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		353CED122B5BF6DF007634BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353CED152B5BF6DF007634BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		353CED1B2B5BF6DF007634BD /* faceauthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faceauthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		353CED1F2B5BF6DF007634BD /* faceauthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceauthTests.swift; sourceTree = "<group>"; };
+		353CED252B5BF6DF007634BD /* faceauthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faceauthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		353CED292B5BF6DF007634BD /* faceauthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceauthUITests.swift; sourceTree = "<group>"; };
+		353CED2B2B5BF6DF007634BD /* faceauthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceauthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		353CED382B5C00E1007634BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353CED082B5BF6DE007634BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353CED182B5BF6DF007634BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353CED222B5BF6DF007634BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353CED022B5BF6DE007634BD = {
+			isa = PBXGroup;
+			children = (
+				353CED0D2B5BF6DE007634BD /* faceauth */,
+				353CED1E2B5BF6DF007634BD /* faceauthTests */,
+				353CED282B5BF6DF007634BD /* faceauthUITests */,
+				353CED0C2B5BF6DE007634BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		353CED0C2B5BF6DE007634BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353CED0B2B5BF6DE007634BD /* faceauth.app */,
+				353CED1B2B5BF6DF007634BD /* faceauthTests.xctest */,
+				353CED252B5BF6DF007634BD /* faceauthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353CED0D2B5BF6DE007634BD /* faceauth */ = {
+			isa = PBXGroup;
+			children = (
+				353CED382B5C00E1007634BD /* Info.plist */,
+				353CED0E2B5BF6DE007634BD /* faceauthApp.swift */,
+				353CED102B5BF6DE007634BD /* ContentView.swift */,
+				353CED122B5BF6DF007634BD /* Assets.xcassets */,
+				353CED142B5BF6DF007634BD /* Preview Content */,
+			);
+			path = faceauth;
+			sourceTree = "<group>";
+		};
+		353CED142B5BF6DF007634BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				353CED152B5BF6DF007634BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		353CED1E2B5BF6DF007634BD /* faceauthTests */ = {
+			isa = PBXGroup;
+			children = (
+				353CED1F2B5BF6DF007634BD /* faceauthTests.swift */,
+			);
+			path = faceauthTests;
+			sourceTree = "<group>";
+		};
+		353CED282B5BF6DF007634BD /* faceauthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				353CED292B5BF6DF007634BD /* faceauthUITests.swift */,
+				353CED2B2B5BF6DF007634BD /* faceauthUITestsLaunchTests.swift */,
+			);
+			path = faceauthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353CED0A2B5BF6DE007634BD /* faceauth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353CED2F2B5BF6DF007634BD /* Build configuration list for PBXNativeTarget "faceauth" */;
+			buildPhases = (
+				353CED072B5BF6DE007634BD /* Sources */,
+				353CED082B5BF6DE007634BD /* Frameworks */,
+				353CED092B5BF6DE007634BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = faceauth;
+			productName = faceauth;
+			productReference = 353CED0B2B5BF6DE007634BD /* faceauth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		353CED1A2B5BF6DF007634BD /* faceauthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353CED322B5BF6DF007634BD /* Build configuration list for PBXNativeTarget "faceauthTests" */;
+			buildPhases = (
+				353CED172B5BF6DF007634BD /* Sources */,
+				353CED182B5BF6DF007634BD /* Frameworks */,
+				353CED192B5BF6DF007634BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353CED1D2B5BF6DF007634BD /* PBXTargetDependency */,
+			);
+			name = faceauthTests;
+			productName = faceauthTests;
+			productReference = 353CED1B2B5BF6DF007634BD /* faceauthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		353CED242B5BF6DF007634BD /* faceauthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353CED352B5BF6DF007634BD /* Build configuration list for PBXNativeTarget "faceauthUITests" */;
+			buildPhases = (
+				353CED212B5BF6DF007634BD /* Sources */,
+				353CED222B5BF6DF007634BD /* Frameworks */,
+				353CED232B5BF6DF007634BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353CED272B5BF6DF007634BD /* PBXTargetDependency */,
+			);
+			name = faceauthUITests;
+			productName = faceauthUITests;
+			productReference = 353CED252B5BF6DF007634BD /* faceauthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353CED032B5BF6DE007634BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					353CED0A2B5BF6DE007634BD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					353CED1A2B5BF6DF007634BD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 353CED0A2B5BF6DE007634BD;
+					};
+					353CED242B5BF6DF007634BD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 353CED0A2B5BF6DE007634BD;
+					};
+				};
+			};
+			buildConfigurationList = 353CED062B5BF6DE007634BD /* Build configuration list for PBXProject "faceauth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 353CED022B5BF6DE007634BD;
+			productRefGroup = 353CED0C2B5BF6DE007634BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				353CED0A2B5BF6DE007634BD /* faceauth */,
+				353CED1A2B5BF6DF007634BD /* faceauthTests */,
+				353CED242B5BF6DF007634BD /* faceauthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353CED092B5BF6DE007634BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353CED162B5BF6DF007634BD /* Preview Assets.xcassets in Resources */,
+				353CED132B5BF6DF007634BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353CED192B5BF6DF007634BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353CED232B5BF6DF007634BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353CED072B5BF6DE007634BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353CED112B5BF6DE007634BD /* ContentView.swift in Sources */,
+				353CED0F2B5BF6DE007634BD /* faceauthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353CED172B5BF6DF007634BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353CED202B5BF6DF007634BD /* faceauthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353CED212B5BF6DF007634BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353CED2C2B5BF6DF007634BD /* faceauthUITestsLaunchTests.swift in Sources */,
+				353CED2A2B5BF6DF007634BD /* faceauthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		353CED1D2B5BF6DF007634BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353CED0A2B5BF6DE007634BD /* faceauth */;
+			targetProxy = 353CED1C2B5BF6DF007634BD /* PBXContainerItemProxy */;
+		};
+		353CED272B5BF6DF007634BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353CED0A2B5BF6DE007634BD /* faceauth */;
+			targetProxy = 353CED262B5BF6DF007634BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		353CED2D2B5BF6DF007634BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		353CED2E2B5BF6DF007634BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		353CED302B5BF6DF007634BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"faceauth/Preview Content\"";
+				DEVELOPMENT_TEAM = 92A76HX7S5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = faceauth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Instagram;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "we use this to unlock phone";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.faceauth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		353CED312B5BF6DF007634BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"faceauth/Preview Content\"";
+				DEVELOPMENT_TEAM = 92A76HX7S5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = faceauth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Instagram;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "we use this to unlock phone";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.faceauth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		353CED332B5BF6DF007634BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92A76HX7S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.faceauthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/faceauth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/faceauth";
+			};
+			name = Debug;
+		};
+		353CED342B5BF6DF007634BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92A76HX7S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.faceauthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/faceauth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/faceauth";
+			};
+			name = Release;
+		};
+		353CED362B5BF6DF007634BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92A76HX7S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.faceauthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = faceauth;
+			};
+			name = Debug;
+		};
+		353CED372B5BF6DF007634BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92A76HX7S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.faceauthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = faceauth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353CED062B5BF6DE007634BD /* Build configuration list for PBXProject "faceauth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353CED2D2B5BF6DF007634BD /* Debug */,
+				353CED2E2B5BF6DF007634BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353CED2F2B5BF6DF007634BD /* Build configuration list for PBXNativeTarget "faceauth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353CED302B5BF6DF007634BD /* Debug */,
+				353CED312B5BF6DF007634BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353CED322B5BF6DF007634BD /* Build configuration list for PBXNativeTarget "faceauthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353CED332B5BF6DF007634BD /* Debug */,
+				353CED342B5BF6DF007634BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353CED352B5BF6DF007634BD /* Build configuration list for PBXNativeTarget "faceauthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353CED362B5BF6DF007634BD /* Debug */,
+				353CED372B5BF6DF007634BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 353CED032B5BF6DE007634BD /* Project object */;
+}
